@@ -9,5 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
--(IBAction)openMaps;
+
+
+- (IBAction)showalert:(id)sender;
+
+- (IBAction)sliderMoved:(id)sender;
+@property (strong, nonatomic) IBOutlet UISlider *slider;
+
 @end

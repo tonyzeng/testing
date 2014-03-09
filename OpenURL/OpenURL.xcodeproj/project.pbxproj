@@ -22,6 +22,8 @@
 		3F10B82218CB0D60008FECD5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F10B80118CB0D60008FECD5 /* UIKit.framework */; };
 		3F10B82A18CB0D60008FECD5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F10B82818CB0D60008FECD5 /* InfoPlist.strings */; };
 		3F10B82C18CB0D60008FECD5 /* OpenURLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F10B82B18CB0D60008FECD5 /* OpenURLTests.m */; };
+		3F52840A18CC77FA00249B7B /* AboutMe_ViewController_OpenURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F52840818CC77FA00249B7B /* AboutMe_ViewController_OpenURL.m */; };
+		3F52840B18CC77FA00249B7B /* AboutMe_ViewController_OpenURL.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F52840918CC77FA00249B7B /* AboutMe_ViewController_OpenURL.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,9 @@
 		3F10B82718CB0D60008FECD5 /* OpenURLTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OpenURLTests-Info.plist"; sourceTree = "<group>"; };
 		3F10B82918CB0D60008FECD5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3F10B82B18CB0D60008FECD5 /* OpenURLTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenURLTests.m; sourceTree = "<group>"; };
+		3F52840718CC77FA00249B7B /* AboutMe_ViewController_OpenURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AboutMe_ViewController_OpenURL.h; path = ../AboutMe_ViewController_OpenURL.h; sourceTree = "<group>"; };
+		3F52840818CC77FA00249B7B /* AboutMe_ViewController_OpenURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AboutMe_ViewController_OpenURL.m; path = ../AboutMe_ViewController_OpenURL.m; sourceTree = "<group>"; };
+		3F52840918CC77FA00249B7B /* AboutMe_ViewController_OpenURL.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AboutMe_ViewController_OpenURL.xib; path = ../AboutMe_ViewController_OpenURL.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +134,9 @@
 		3F10B80418CB0D60008FECD5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3F52840718CC77FA00249B7B /* AboutMe_ViewController_OpenURL.h */,
+				3F52840818CC77FA00249B7B /* AboutMe_ViewController_OpenURL.m */,
+				3F52840918CC77FA00249B7B /* AboutMe_ViewController_OpenURL.xib */,
 				3F10B80518CB0D60008FECD5 /* OpenURL-Info.plist */,
 				3F10B80618CB0D60008FECD5 /* InfoPlist.strings */,
 				3F10B80918CB0D60008FECD5 /* main.m */,
@@ -231,6 +239,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F52840B18CC77FA00249B7B /* AboutMe_ViewController_OpenURL.xib in Resources */,
 				3F10B81418CB0D60008FECD5 /* Main_iPad.storyboard in Resources */,
 				3F10B81918CB0D60008FECD5 /* Images.xcassets in Resources */,
 				3F10B81118CB0D60008FECD5 /* Main_iPhone.storyboard in Resources */,
@@ -253,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F52840A18CC77FA00249B7B /* AboutMe_ViewController_OpenURL.m in Sources */,
 				3F10B81718CB0D60008FECD5 /* ViewController.m in Sources */,
 				3F10B80E18CB0D60008FECD5 /* AppDelegate.m in Sources */,
 				3F10B80A18CB0D60008FECD5 /* main.m in Sources */,
@@ -474,6 +484,7 @@
 				3F10B83118CB0D60008FECD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F10B83218CB0D60008FECD5 /* Build configuration list for PBXNativeTarget "OpenURLTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +493,7 @@
 				3F10B83418CB0D60008FECD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -16,4 +16,8 @@
 - (IBAction)sliderMoved:(id)sender;
 @property (strong, nonatomic) IBOutlet UISlider *slider;
 
+@property (strong, nonatomic) IBOutlet UILabel *targetLabel;
+
+- (IBAction)showInfo:(id)sender;
+
 @end
